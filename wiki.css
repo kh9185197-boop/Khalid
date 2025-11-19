@@ -1,0 +1,138 @@
+html {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container {
+    height: 500px ;
+    width: 900px;
+    position: relative;
+    /* left: 30px; */
+    top: -140px;
+}
+
+
+.globe {
+    width: 200px;
+    position: absolute;
+    top: 200px;
+    left: 50%;
+}
+
+.words {
+    top: 22%;
+    left: 34%;
+    position: absolute;
+    text-align: center;
+
+}
+
+.sndtp {
+    top: 22%;
+    left: 69%;
+    position: absolute;
+    text-align: center;
+}
+
+.trdtp {
+
+    top: 40%;
+    left: 30%;
+    position: absolute;
+    text-align: center;
+
+}
+
+.ffthtp {
+       top: 54%;
+    left: 27%;
+    position: absolute;
+    text-align: center;
+}
+
+.sthtp {
+
+    top: 68%;
+    left: 30%;
+    position: absolute;
+    text-align: center;
+
+}
+
+.nthtp {
+    top: 82%;
+    left: 40%;
+    position: absolute;
+    text-align: center;
+
+}
+
+.fthtp {
+    top: 40%;
+    left: 76%;
+    position: absolute;
+    text-align: center;
+}
+.sxthtp {
+    top:54%;
+    left: 81%;
+    position: absolute;
+    text-align: center;
+}
+.ethtp {
+    top: 68%;
+    left: 76%;
+    position: absolute;
+    text-align: center;
+}
+.tthtp {
+     top: 82%;
+    left: 70%;
+    position: absolute;
+    text-align: center;
+    /* word-spacing: -10%; */
+}
+
+.wikipp {
+    /* text-align: center; */
+    margin-left: 500px;
+    /* margin-bottom: -75px; */
+      margin-bottom: -12px;
+    
+}
+
+.lang  {
+    color: blue;
+    margin-bottom: -18px;
+}
+body {
+    margin-left: 10%;
+    margin-top: 2%;
+    position: absolute;
+    
+}
+
+.wi {
+    /* text-align: center; */
+    margin-left: 450px;
+    /* margin-bottom: -12px; */
+}
+
+.input {
+    height: 48px;
+    width: 500px;
+}
+
+.butt {
+     height: 54px;
+     width:50px;
+     font-size: 20px;
+     margin-left: -8px;
+     border-left: none;
+     background-color: aqua;
+     color: aliceblue;
+}
+
+.searchbox {
+    margin-left: 28%;
+    margin-top: -130px;
+}

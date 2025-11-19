@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: white;
+}
+.electro{
+    width: 150px;
+    height: 75px;
+    color: rgb(255, 0, 106);;
+    font-size: bold;
+    margin-left: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.heroimage{
+    width: 600px;
+    height: 500px;
+}
+
+header{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 600px;
+    position: sticky;
+    top: 0;
+}
+
+.nav a{
+    margin-left: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    text-decoration: none;
+    margin-top: 100px;
+}
+
+.herosection{
+    display: flex;
+}
+
+.lefthero h1{
+    margin-left: 20px;
+    margin-top: 200px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.lefthero p{
+    margin-left: 20px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    margin-top: 10px;
+}
+.lefthero button{
+    margin-left: 20px;
+    background-color: rgb(255, 0, 106);
+    border: none;
+    width: 100px;
+    height: 45px;
+    border-radius: 35px;
+    color: white;
+}

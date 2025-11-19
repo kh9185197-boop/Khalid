@@ -1,0 +1,64 @@
+body{
+    background-color: black;
+}
+.Container{
+    height: 500px;
+    width: 800px;
+    position: relative;
+}
+.globe{
+    width: 250px;
+    position: absolute;
+    top: 150px;
+    left: 500px;
+}
+.Wikipedia{
+    position: relative;
+    top: 40px;
+    left: 250px;
+    text-align: center;
+    color: white;
+}
+.English{
+    position: relative;
+    top: 18px;
+    left: 30px;
+    text-align: center;
+    color: white;
+}
+.English h3{
+    color: #2b71db;
+}
+.English:hover h3{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.Русский{
+    position: relative;
+    top: 30px;
+    left: 25px;
+    text-align: center; 
+    color: white;  
+}
+.Русский h3{
+    color: #2b71db;
+}
+.Русский:hover h3{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.Français{
+    position: relative;
+    top: 40px;
+    left: 15px;
+    text-align: center; 
+    color: white;  
+}
+.Français h3{
+    color: #2b71db;
+}
+.Français:hover h3{
+    text-decoration: underline;
+    cursor: pointer;
+}
+

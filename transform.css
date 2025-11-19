@@ -1,0 +1,45 @@
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    animation: bounce 2s infinite alternate ease-in-out;
+} @keyframes bounce{
+    form {transform: translateX(20px);}
+    to{transform: translateX(-10px);}
+}
+.box2{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    transition-property: height, tranform, background;
+    transition-duration: 2s, 1s, 5s;
+    transition-timing-function: linear, ease, ease-in;
+    animation: rotate 5s infinite ease-in;
+}
+
+@keyframes fasa{
+    0% {transform: translatex(opx); background-color: red;}
+    25% {transform: translateX(100px); background-color: blue;}
+}.box2:hover{
+    height: 50px;
+    transform: skew(20deg);
+    background-color: green;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.box2:hover{
+    transform: translatey(100px);
+    transition-duration: 10s;
+} 

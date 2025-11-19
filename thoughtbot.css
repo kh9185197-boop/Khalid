@@ -1,0 +1,361 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #201313;
+}
+
+header{
+    background-color: #201313;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+.logo{
+    width: 150px;
+}
+
+.nav a{
+    margin-left: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-decoration: none;
+}
+.nav a:hover{
+    color: #ffc726;
+    border-bottom: 2px solid #ffc726;
+    cursor: pointer;
+}
+.headerbutton{
+    background-color: red;
+    border: none;
+    width: 200px;
+    height: 35px;
+    border-radius: 35px;
+    color: white;
+}
+
+.headerbutton:hover, .lefthero button:hover{
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.herosection{
+    display: flex;
+}
+
+.lefthero{
+    margin-top: 150px;
+    width: 900px;
+    margin-left: -300px;
+    font-size: 20px;
+
+}
+
+.lefthero h1{
+    margin-left: 50px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 55px;
+    font-weight: 40;
+    margin-left: -50px;
+}
+
+.lefthero p{
+    margin-left: 50px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: -50px;
+}
+.lefthero button{
+    margin-left: 50px;
+    background-color: red;
+    border: none;
+    width: 200px;
+    height: 35px;
+    border-radius: 35px;
+    color: white;
+    margin-left: -50px;
+}
+.righthero img{
+    width: 600px;
+}
+
+.secondsection{
+    display: flex;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 100px;
+}
+.left2{
+    margin-left: 50px;
+    width: 450px;
+}
+.left2 h3{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    cursor: pointer;
+}
+.products p{
+   border: 2px solid #29d1b8;
+    border-radius: 20px;
+    padding: 5px;
+    margin-top: 1 0px;
+    color: #29d1b8;
+}
+.management{
+    margin-right: 10px;
+}
+.how{
+    margin-top: 20px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.left2 a{
+    color: #ffe7a3;
+    font-size: 18px;
+}
+.left2 a:hover{
+    color: #ffc726;
+    text-decoration: none;
+} 
+.right2{
+    margin-right: 100px;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.right2 p{
+    font-size: 20px;
+}
+ .profile{
+    margin-top: 20px;
+    display: flex;
+}
+.profile img{
+    width: 50px;
+    border-radius: 35px;
+    margin-right: 20px;
+} 
+.thirdsection{
+    display: flex;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 70px;
+    margin-left: 50px;
+}
+.left3{
+    margin-bottom: 20px;
+}
+.our{
+    font-size: 25px;
+}
+.your{
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.benefit{
+        font-size: 18px;
+    margin-bottom: 20px;
+}
+.link2{
+    color: #ffe7a3;
+    font-size: 18px;
+}
+.link2:hover{
+    color: #ffc726;
+    text-decoration: none;
+}
+.right3{
+    margin-left: 50px;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    color: white;
+}
+.For{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.right3 a{
+    font-size: 20px;
+    color: white;
+}
+.right3 a:hover{
+    cursor: pointer;
+    color: #ffc726;
+    text-decoration: none;
+}
+.right h3{
+    margin-bottom: 20px;
+}
+.section4{
+    display: flex;
+}
+.section4img{
+    width: 600px;
+}
+.left4{
+    margin-top: 50px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 50px;
+    margin-right: 100px;
+}
+.left4 a{
+    color: #ffe7a3;
+    font-size: 22px;
+}
+.left4 a:hover{
+    color: #ffc726;
+    text-decoration: none;
+}
+.left4 p{
+    margin-bottom: 20px;
+}
+.left4 h1{
+    font-size: 40px;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: space-evenly;
+    font-size: 20px;
+}
+.grid div{
+    width: 350px;
+    margin-top: 50px;
+}
+.grid a{
+    color: #ffe7a3;
+}
+.grid a:hover{
+    color: #ffc726;
+    text-decoration: none;
+}
+footer{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-group{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+}
+.footer-sections a{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+.footer-sections{
+    display: flex;
+    flex-direction: column;
+}
+.footer-sections a:hover{
+    cursor: pointer;
+    color: #ffc726;
+    text-decoration: #ffc726;
+}
+.footer-sections p a{
+    color: #ffe7a3;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+.footer-sections-Let{
+    color: #ffe7a3;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+}
+.footer-sections p a:hover{
+    cursor: pointer;
+    color: #ffc726;
+    text-decoration: #ffc726;
+}
+.featured {
+    display: flex;
+    align-items: center;
+    color: white;
+    gap: 10px;
+    margin: 20px 20px;
+}
+
+video video{
+    width: 100%;
+}
+
+
+.havard {
+    background-color: white;
+    padding: 10px;
+    width: 130px;
+    position: absolute;
+    right: 50px;
+    margin-top: -50px;
+}
+
+
+@media (max-width: 768px) {
+    header nav{
+        display: none;
+    }
+
+    header button {
+        display: none;
+    }
+    .menu {
+        display: block;
+    }
+
+    main div {
+        width: 70%;
+    }
+    main {
+        flex-wrap: wrap;    
+    }
+    .hero-left {
+        display: none;
+    }
+    .hero-right {
+        width: 100%;
+    }
+    main h1 {
+        font-size: 40px;
+    }
+    
+    main p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 426px) {
+    .right {
+        width: 40%;
+    }
+    .left {
+        width: 5%;
+    }
+    
+    video video{
+        margin-top: 50px;
+    }
+
+    .havard {
+        margin-top: 0;
+    }
+}

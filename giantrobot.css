@@ -1,0 +1,288 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #201313;
+}
+
+header{
+    background-color: #201313;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+.logo{
+    width: 150px;
+}
+.nav a{
+    margin-left: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-decoration: none;
+}
+.nav a:hover{
+    color: #ffc726;
+    border-bottom: 2px solid #ffc726;
+    cursor: pointer;
+}
+.headerbutton{
+    background-color: red;
+    border: none;
+    width: 200px;
+    height: 35px;
+    border-radius: 35px;
+    color: white;
+}
+
+.headerbutton:hover{
+    border: white 3px solid;
+    cursor: pointer;
+}
+.section1{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    margin-left: 100px;
+    
+}
+.section1 h1{
+    margin-top: 50px;
+    color: white;
+    font-size: 55px;
+    font-weight: lighter, 10px;
+}
+.section1 p{
+    margin-top: 15px;
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+.thoughtbot{
+    color: #ffe7a3;
+}
+.thoughtbot:hover{
+    cursor: pointer;
+    color: #ffc726;
+    text-decoration: #ffc726;
+}
+hr{
+    text-align: center;
+    width: 90%;
+    border: 0.5px solid rgb(250, 244, 234);
+}
+.All, .Product, .More{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 60px;
+    margin-top: 400px;
+    border-radius: 20px;
+    border: 2px solid #7b6e68;
+    width: 140px;
+    padding: 10px;
+}
+.products{ 
+    margin-top: 40px;
+    margin-left: 50px;
+}
+.All{
+    background-color: #ffc726;
+    color: black;
+    font-size: 25px;
+}
+.All:hover{
+    cursor: pointer;
+}
+.More{
+    border: none;
+    text-decoration: underline 2px solid white;
+}
+.More:hover{
+    cursor: pointer;
+    color: #ffc726;
+    text-decoration: #ffc726;
+}
+.Product:hover{
+    cursor: pointer;
+    background-color: #ffe7a3;
+    color: black;
+}
+.find{
+    margin-left: 100px;
+    margin-top: 50px;
+    width: 800px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    gap: 10px;
+}
+.find h3{
+    font-size: 35px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.find a{
+    color: #ffe7a3;
+    text-decoration: none;
+}
+.find a:hover{
+    cursor: pointer;
+    color: #ffc726;
+}
+.find h3:hover{
+    cursor: pointer;
+    color: #ffc726;
+}
+.design, .C, .U, .V, .F, .E, .P, .R, .O, .T{
+    display: inline;
+    font-size: 18px;
+    color: white;
+    margin-right: 5px;
+}
+.design:hover, .C:hover, .U:hover, .F:hover, .E:hover, .V:hover, .P:hover, .R:hover, .O:hover, .T:hover{
+    cursor: pointer;
+    color: #ffc726;
+}
+.Box{
+    margin-left: 100px;
+    margin-top: 50px;
+    width: 800px;
+    height: 200px;
+    background-color: #2f1c1c;
+    padding: 20px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+}
+.input[type="text"]{
+    width: 600px;
+    height: 40px;
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 5px;
+    background-color: #2f1c1c;
+}
+.subscribe{
+   background-color: red;
+    border: none;
+    width: 150px;
+    height: 35px;
+    border-radius: 35px;
+    color: white;
+}
+.subscribe:hover{
+    border: white 3px solid;
+    cursor: pointer;
+}
+.moreways{
+    margin-left: 150px;
+    margin-top: 30px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    display: flex;
+    gap: 200px;
+}
+.moreways a{
+    color: #ffe7a3;
+    text-decoration: none;
+    font-size: 20px;
+}
+.moreways a:hover{
+    cursor: pointer;
+    color: #ffc726;
+}
+.secondfind{
+    margin-left: 100px;
+    margin-top: 100px;
+    width: 800px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    gap: 10px;
+}
+.secondfind h3{
+    font-size: 35px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.secondfind a{
+    color: #ffe7a3;
+    text-decoration: none;
+}
+.secondfind a:hover{
+    cursor: pointer;
+    color: #ffc726;
+}
+.secondfind h3:hover{
+    cursor: pointer;
+    color: #ffc726;
+}
+.secondf{
+    margin-left: 100px;
+    margin-top: 100px;
+    width: 800px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    gap: 10px;
+}
+.secondf h3{
+    font-size: 35px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.secondf a{
+    color: #ffe7a3;
+    text-decoration: none;
+}
+.secondf a:hover{
+    cursor: pointer;
+    color: #ffc726;
+}
+.secondf h3:hover{
+    cursor: pointer;
+    color: #ffc726;
+}
+footer{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-group{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+}
+.footer-sections a{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+.footer-sections{
+    display: flex;
+    flex-direction: column;
+}
+.footer-sections a:hover{
+    cursor: pointer;
+    color: #ffc726;
+    text-decoration: #ffc726;
+}
+.footer-sections p a{
+    color: #ffe7a3;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+.footer-sections-Let{
+    color: #ffe7a3;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+}
+.footer-sections p a:hover{
+    cursor: pointer;
+    color: #ffc726;
+    text-decoration: #ffc726;
+}
