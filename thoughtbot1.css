@@ -513,7 +513,237 @@ footer{
     color: #ffc726;
     text-decoration: #ffc726;
 }
-@media (max-width: 768px) {
+
+/* ========================================= */
+/* 📱 MOBILE + TABLET RESPONSIVE FIXES       */
+/* ========================================= */
+@media (max-width: 900px) {
+
+    header {
+        flex-direction: column;
+        padding: 20px;
+        gap: 20px;
+        text-align: center;
+    }
+
+    header img {
+        width: 40%;
+    }
+
+    header nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    header button {
+        width: 80%;
+    }
+
+    /* MAIN SECTION */
+    main {
+        flex-direction: column;
+        text-align: center;
+        margin-top: 40px;
+        align-items: center;
+    }
+
+    .hero-left,
+    .hero-right {
+        position: static;
+        width: 80%;
+        margin: 0 auto 20px;
+    }
+
+    main div {
+        margin: 0;
+        width: 90%;
+    }
+
+    main h1 {
+        font-size: 35px;
+    }
+
+    main p {
+        font-size: 18px;
+    }
+
+    main button {
+        width: 60%;
+    }
+
+    /* FEATURED SECTION */
+    .featured {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .havard {
+        right: 20px;
+        width: 100px;
+    }
+
+    /* HARVARD REVIEW SECTION */
+    .section1 {
+        flex-direction: column;
+        text-align: center;
+        gap: 40px;
+    }
+
+    .review,
+    .profile {
+        width: 90%;
+    }
+
+    .divs {
+        position: static;
+        margin: 0 auto;
+    }
+
+    .ux {
+        justify-content: center;
+    }
+
+    /* SERVICES SECTION */
+    .thirdsection {
+        flex-direction: column;
+        margin-left: 0;
+        text-align: center;
+        gap: 40px;
+    }
+
+    .right3 {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    /* CLIENT GRID */
+    .section5 {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    .right5 {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        width: 90%;
+    }
+
+    .right5 img {
+        width: 100%;
+    }
+
+    /* AI SECTION */
+    .section4 {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .section4img {
+        width: 90%;
+    }
+
+    .left4 {
+        margin: 20px;
+        width: 90%;
+    }
+
+    /* CLIENT SUCCESS */
+    .section6 {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .container,
+    .IM {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .container img,
+    .IM img {
+        width: 90%;
+    }
+
+    .foot {
+        width: 100%;
+        margin-left: 0;
+        height: auto;
+        padding-bottom: 40px;
+    }
+
+    .PF {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .PF a {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    /* COMPANY SECTION */
+    .section7 {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .section7 img {
+        width: 90%;
+    }
+
+    .left7 {
+        margin: 20px;
+    }
+
+    /* RESOURCES GRID */
+    .grid {
+        flex-direction: column;
+        text-align: center;
+        margin-left: 0;
+        gap: 40px;
+        align-items: center;
+    }
+
+    .grid div {
+        width: 90%;
+    }
+
+    /* LET’S TALK SECTION */
+    .What {
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+        padding: 40px 0;
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .What button {
+        margin-left: 0;
+        margin-top: 20px;
+        width: 60%;
+    }
+
+    /* FOOTER */
+    footer {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .footer-group {
+        flex-direction: column;
+        width: 100%;
+        gap: 30px;
+    }
+}
+
+/* @media (max-width: 768px) {
     header nav{
         display: none;
     }
@@ -588,4 +818,4 @@ footer{
     .For{
         font-size: 20px;
     }
-}
+} */
